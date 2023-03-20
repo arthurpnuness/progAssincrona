@@ -1,0 +1,36 @@
+
+#add ex2
+
+GET http://localhost:8081/calculator?operation=add&valueA=69&valueB=99
+###
+
+#subtraction ex2
+GET http://localhost:8081/calculator?operation=subtraction&valueA=30&valueB=9
+###
+
+#multiplication ex2
+GET http://localhost:8081/calculator?operation=multiplication&valueA=70&valueB=10
+
+###
+#division
+GET http://localhost:8081/calculator?operation=division&valueA=124&valueB=2
+
+# exercise 3
+###
+GET http://localhost:8081/exercise3
+
+###
+#exercise 4
+GET http://localhost:8081/exercise4?operator=previous&number=21
+###
+#exercise 4
+GET http://localhost:8081/exercise4?operator=next&number=21
+
+###
+#exercise 5
+GET http://localhost:8081/reverse?value=arthur
+###
+
+#exercise 6
+GET http://localhost:8081/remove?value=pessoa
+###
